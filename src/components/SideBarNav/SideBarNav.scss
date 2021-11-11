@@ -14,12 +14,12 @@
     align-items: center;
     margin-bottom: 3px;
     color: $textColorMain;
-    transition: width ease-in-out 200ms;
+    transition: width ease-in-out 400ms;
     overflow: hidden;
 
     &--expanded {
       width: 150px;
-      transition: width ease-in-out 200ms;
+      transition: width ease-in-out 400ms;
     }
 
     .navLinkIcon {
@@ -44,10 +44,7 @@
       background: $bgColorLight;
       color: $textColorActive;
       cursor: default;
-
-      .navLinkIcon {
-        border-color: $textColorActive;
-      }
+      transition: background ease-in 400ms, width ease-in-out 400ms;
     }
   }
 }

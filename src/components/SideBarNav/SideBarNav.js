@@ -7,8 +7,10 @@ import {I18nContext} from '../../contexts/I18nContext';
 const SideBarNav = ({ expanded }) => {
   const { t } = useContext(I18nContext);
   const navItems = [
-    {to: 'dashboard', name: t('dashboard'), icon: 'analytics'},
+    {to: '/', name: t('dashboard'), icon: 'analytics'},
     {to: 'budget', name: t('budget'), icon: 'account_balance_wallet'},
+    {to: 'savings', name: t('savings'), icon: 'savings'},
+    {to: 'settings', name: t('settings'), icon: 'settings'},
   ]
 
   return (
