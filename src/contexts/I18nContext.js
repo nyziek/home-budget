@@ -1,18 +1,22 @@
 import React, { useState } from 'react';
 import en from '../locales/en.json';
+import pl from '../locales/pl.json';
 
 export const I18nContext = React.createContext();
 
 const I18nContextProvider = ({ children }) => {
-  const [translations, setTranslations] = useState(en);
+  const [translations, setTranslations] = useState(pl);
 
   const changeLocale = locale => {
     switch (locale) {
       case 'en':
         setTranslations(en);
         break;
-      default:
+      case 'pl':
         setTranslations(en);
+        break;
+      default:
+        setTranslations(pl);
     }
   }
 

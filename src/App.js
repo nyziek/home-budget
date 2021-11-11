@@ -6,6 +6,11 @@ import I18nContextProvider from './contexts/I18nContext';
 
 import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
+import Dashboard from './components/Dashboard/Dashboard';
+import Budget from './components/Budget/Budget';
+import Savings from './components/Savings/Savings';
+import Debts from './components/Debts/Debts';
+import Settings from './components/Settings/Settings';
 
 const PrivateRoute = ({ children }) => {
   const auth = 1 === 1;
@@ -34,19 +39,23 @@ const App = () => {
             >
               <Route
                 path='/'
-                element={<div>DASHBOARD</div>}
+                element={<Dashboard />}
               />
               <Route
                 path='budget'
-                element={<div>BUDGET</div>}
+                element={<Budget />}
               />
               <Route
                 path='savings'
-                element={<div>SAVINGS</div>}
+                element={<Savings />}
+              />
+              <Route
+                path='debts'
+                element={<Debts />}
               />
               <Route
                 path='settings'
-                element={<div>SETTINGS</div>}
+                element={<Settings />}
               />
             </Route>
           </Routes>

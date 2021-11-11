@@ -16,8 +16,8 @@ const SideBar = () => {
         <div className='sideBarExpandButton' onClick={toggleExpandSideBar}>
           <span className='material-icons sideBarExpandButtonIcon'>{expanded ? 'chevron_left' : 'chevron_right'}</span>
         </div>
+        <SideBarNav expanded={expanded} />
       </div>
-      <SideBarNav expanded={expanded} />
     </div>
   );
 }

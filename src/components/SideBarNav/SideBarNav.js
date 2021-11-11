@@ -10,6 +10,7 @@ const SideBarNav = ({ expanded }) => {
     {to: '/', name: t('dashboard'), icon: 'analytics'},
     {to: 'budget', name: t('budget'), icon: 'account_balance_wallet'},
     {to: 'savings', name: t('savings'), icon: 'savings'},
+    {to: 'debts', name: t('debts'), icon: 'credit_card'},
     {to: 'settings', name: t('settings'), icon: 'settings'},
   ]
 

@@ -1,6 +1,6 @@
 // imports
 @import './include-media';
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap&subset=latin-ext');
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 // fonts
@@ -24,4 +24,4 @@ $bgColorLightest: #F2F4F3;
 $borderColor: #F2F4F3;
 $borderColorSecondary: #F2BB05;
 $borderColorHighlight: #DB5ABA;
-$borderColorDark: #0A0908;
+$borderColorDark: #2274A5;

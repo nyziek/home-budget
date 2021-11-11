@@ -1,4 +1,10 @@
 {
   "home budget planner": "home budget planner",
-  "dashboard": "dashboard"
+  "dashboard": "dashboard",
+  "budget": "budget",
+  "savings": "savings",
+  "debts": "debts",
+  "settings": "settings",
+  "income": "income",
+  "expenses": "expenses"
 }
