@@ -1,0 +1,53 @@
+@import '../../styles/styles';
+
+.SideBarNav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+
+  .navLink {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+    color: $textColorMain;
+    transition: width ease-in-out 200ms;
+    overflow: hidden;
+
+    &--expanded {
+      width: 150px;
+      transition: width ease-in-out 200ms;
+    }
+
+    .navLinkIcon {
+      width: 40px;
+      min-width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navLinkLabel {
+      width: 90px;
+      font-weight: 400;
+    }
+
+    &:hover {
+      background: $bgColorHighlight;
+    }
+
+    &.active {
+      background: $bgColorLight;
+      color: $textColorActive;
+      cursor: default;
+
+      .navLinkIcon {
+        border-color: $textColorActive;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+// imports
+@import './include-media';
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+// fonts
+
+$fontMain: 'Oxygen', sans-serif;
+
+//Colors
+
+$textColorMain: #F2F4F3;
+$textColorSecondary: #F2BB05;
+$textColorDark: #0A0908;
+$textColorHighlight: #DB5ABA;
+$textColorActive: #2274A5;
+
+$bgColorMain: #0A0908;
+$bgColorSecondary: #2274A5;
+$bgColorHighlight: #DB5ABA;
+$bgColorLight: #F2BB05;
+$bgColorLightest: #F2F4F3;
+
+$borderColor: #F2F4F3;
+$borderColorSecondary: #F2BB05;
+$borderColorHighlight: #DB5ABA;
+$borderColorDark: #0A0908;

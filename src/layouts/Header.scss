@@ -1,0 +1,34 @@
+@import '../styles/styles';
+
+.Header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border-bottom: 1px solid $borderColorHighlight;
+
+  .headerLeft {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .appLogo {
+      width: auto;
+      height: 38px;
+    }
+
+    .appName {
+      margin-left: 10px;
+      font-weight: 700;
+      color: $textColorHighlight;
+    }
+  }
+
+  .headerRight {
+    height: 100%;
+    display: flex;
+    justify-content: right;
+  }
+}
